@@ -6,9 +6,11 @@
               #   Wireshark  
    
   **Final Flag**  
+  
   ``` 
   $JG1{p4cket_c4ptured}  
    ```
+   
   **Step 1: Open the PCAPNG File**  
    
           1 Open **Wireshark**   
