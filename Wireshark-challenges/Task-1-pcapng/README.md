@@ -104,8 +104,8 @@
    
    This is the **flag**.  
    
- **The traffic used ** **HTTP** **, not HTTPS**  
+**The traffic used ** **HTTP** **, not HTTPS**  
    
- **HTTP sends form data in ** **plain text**  
+**HTTP sends form data in ** **plain text**  
    
- **Signup forms commonly use ** **POST requests**  
+**Signup forms commonly use ** **POST requests**  
