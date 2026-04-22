@@ -46,6 +46,8 @@ Among them, two packets contain Base64-looking strings.
 
 <img width="1411" height="483" alt="Image" src="https://github.com/user-attachments/assets/a1633433-b85e-477c-bab8-8207b6474bcb" />
 
+you see,
+<img width="932" height="123" alt="Image" src="https://github.com/user-attachments/assets/2936aa1c-d555-4198-a743-21c2afd9308b" />
 
 Important strings:
 
@@ -262,48 +264,4 @@ You can write this directly:
 7. Decrypted the reconstructed blob using AES-CBC with the recovered key and IV.
 8. The decrypted output was a PNG image containing the flag.
 
----
 
-# Only necessary screenshots
-
-Take these for the writeup:
-
-## 1. Wireshark main packet view
-
-Show the overall capture.
-
-## 2. UDP packet with readable text + Base64
-
-Show where the encoded string appears.
-
-## 3. Base64 decode result
-
-Show the key and IV recovery.
-
-## 4. ICMP filtered view
-
-Show many ICMP packets between the two hosts.
-
-## 5. ICMP packet bytes pane
-
-Show that ICMP contains binary payload.
-
-## 6. Decryption script/output
-
-Show the recovered PNG creation.
-
-## 7. Final image with flag
-
-This is the proof.
-
----
-
-# Very simple explanation for beginner
-
-This challenge works like this:
-
-* **UDP** gives you the **decryption secret**
-* **ICMP** carries the **encrypted hidden file**
-* combine ICMP payloads
-* decrypt using the UDP values
-* get the image
