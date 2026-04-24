@@ -1,4 +1,4 @@
-**Task 1 - PCAPNG**  
+## Task 1 - PCAPNG  
     Analyze the given .pcapng file using wireshark and recover the hidden flag.  
    
     
@@ -100,8 +100,10 @@
   
   <img width="910" height="522" alt="Image" src="https://github.com/user-attachments/assets/ca364a83-d2f2-4791-80e8-fec882dfd714" />
    
-  $JG1{p4cket_c4ptured}   
-   
+ ```bash
+ $JG1{p4cket_c4ptured}   
+ ```  
+ 
    This is the **flag**.  
    
 **The traffic used** **HTTP** **, not HTTPS**  
