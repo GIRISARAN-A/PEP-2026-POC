@@ -236,8 +236,6 @@ That means it is a **PNG file**.
 
 Open it, and the flag is inside the image.
 
----
-
 # Final flag
 
 
@@ -246,8 +244,6 @@ Open it, and the flag is inside the image.
 ```text
 flag{d34d_p4ck3ts_t3ll_n0_t4l3s_0x28934}
 ```
-
----
 
 # What to write in your writeup
 
