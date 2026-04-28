@@ -241,7 +241,7 @@ Open it, and the flag is inside the image.
 
 <img width="524" height="499" alt="Image" src="https://github.com/user-attachments/assets/e45d6871-c43f-4b8a-9650-da67bf21d6be" />
 
-```text
+```shell
 flag{d34d_p4ck3ts_t3ll_n0_t4l3s_0x28934}
 ```
 
